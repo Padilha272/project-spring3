@@ -16,4 +16,11 @@ public class UserResource {
 		User u = new User(1L,"Maria", "maria@gmail.com","9999999","123455");
 		return ResponseEntity.ok().body(u);
 	}
+	
+	/*
+	@GetMapping(value = "/nome")
+	public String getUser() {
+		User u = new User(1L,"Maria", "maria@gmail.com","9999999","123455");
+		return u.getName();
+	}*/
 }
