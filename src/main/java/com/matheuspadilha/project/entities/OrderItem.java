@@ -62,11 +62,11 @@ public class OrderItem implements Serializable{
 		this.quantity = quantity;
 	}
 
-	public Double getPrive() {
+	public Double getPrice() {
 		return price;
 	}
 
-	public void setPrive(Double price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
 
@@ -75,6 +75,10 @@ public class OrderItem implements Serializable{
 		return Objects.hash(id);
 	}
 
+	public Double getSubTotal() {
+		return this.quantity*this.price;
+	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
