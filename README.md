@@ -1,10 +1,10 @@
 # Project
 
-Este projeto é um tutorial para criar uma aplicação Spring Boot com JPA (Java Persistence API) e demonstra diversos conceitos e práticas relacionadas ao desenvolvimento de aplicações web em Java.
+Este projeto é uma aplicação Spring Boot com JPA (Java Persistence API) e demonstra diversos conceitos e práticas relacionadas ao desenvolvimento de aplicações web em Java.
 
 ## Objetivo do Projeto
 
-O projeto tem como objetivo desenvolver um sistema de pedidos com as seguintes características:
+O projeto consiste um sistema de pedidos com as seguintes características:
 
 - Domain Model: Define as entidades principais do sistema, como User, Order, Product e Category.
 - Database Configuration: Utiliza o banco de dados H2 para desenvolvimento e teste, com instruções para configuração do PostgreSQL em produção.
@@ -38,3 +38,4 @@ cd backend
 
 # Executar o projeto
 ./mvnw spring-boot:run
+
